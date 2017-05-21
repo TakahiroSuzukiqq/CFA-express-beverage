@@ -1,0 +1,36 @@
+{
+  "beverage": {
+    "comment_out": "//1.create file and move the data//1.const data = {, //2.need export the data to indexs//2.exports.dataObject = {, //3,rename file as data.json after testing sayHello//3.and delete 'exports.dataObject', add , change beverage and sort as string",
+    "name": "A beverage",
+    "size": "large",
+    "comment_out_about_testing_sayHello": "//see if sayhello works or not//exports.sayHello = function() {//return 'Hello'// }"
+  },
+
+  "sort":[
+    {
+      "id": 1,
+      "type": "coca cola",
+      "enegetic_rate":4
+    },
+    {
+      "id": 2,
+      "type": "coffee",
+      "enegetic_rate":3
+    },
+    {
+      "id": 3,
+      "type": "water",
+      "enegetic_rate":1
+    },
+    {
+      "id": 4,
+      "type": "red bull",
+      "enegetic_rate":8
+    },
+    {
+      "id": 5,
+      "type": "beer",
+      "enegetic_rate":100
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<!-- create "index.ejs/views" & install ejs as "npm install ejs --save" -->
+<h1>When you are exhousted in extensive lesson, drink below!!</h1>
+
+<!-- #test that data can get after setup dataVariable
+<%= dataVariable %>
+<%= dataVariable.beverage.name %> -->
+
+<!-- get a loop from 'embeddedjs.com' on google -->
+
+<p><%= dataVariable.beverage.name %></p>
+
+<p>Name (Energetic rate)</p>
+<ul>
+<% for(var i=0; i<dataVariable.sort.length; i++) {%>
+   <li><%= dataVariable.sort[i].type %> ( <%= dataVariable.sort[i].enegetic_rate %>)</li>
+<% } %>
+</ul>
